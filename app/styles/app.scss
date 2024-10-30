@@ -1,0 +1,9 @@
+@use './homepage';
+@use './product';
+@use './cart';
+
+.breadcrumb-bg {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px; /* Optional: Add some padding */
+    border-radius: 5px; /* Optional: Round the corners */
+}

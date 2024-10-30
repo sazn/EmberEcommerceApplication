@@ -1,0 +1,4 @@
+<LinkTo @route="item" @model={{@productList.id}} class="product">
+    <Product::Image @src={{this.productImage}} /> {{!-- Nested Component --}}
+    <Product::Details @name={{@productList.name}} @price={{@productList.price}} />
+</LinkTo>
